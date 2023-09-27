@@ -30,6 +30,10 @@ describe("reciprocal(n)", () => {
           } catch (err) {
             expect(err.message).to.eql("only accepts number between 1 and 1000000");
           }
+          
           expect(reciprocal(n1)).to.exist;
+          console.log("function ran after facing TypeError")
     })
+    //chai.spy.on
+
 })
